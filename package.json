@@ -1,0 +1,34 @@
+{
+  "name": "walkway",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "devServer": "nodemon server/index.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": "^10.16.0"
+  },
+  "dependencies": {
+    "babel-plugin-root-import": "^6.4.1",
+    "dotenv-webpack": "^1.7.0",
+    "next": "9.1.1",
+    "react": "16.10.2",
+    "react-dom": "16.10.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.15.3"
+  }
+}
