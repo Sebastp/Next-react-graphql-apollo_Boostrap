@@ -1,6 +1,6 @@
 Tech to use:
 https://github.com/immutable-js/immutable-js
-typescript or prop-types
+prop-types (or TypeScript/Flow)
 https://github.com/apollographql/eslint-plugin-graphql
 https://www.npmjs.com/package/react-helmet
 
