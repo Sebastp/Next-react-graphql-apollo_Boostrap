@@ -1,6 +1,8 @@
 {
-  "name": "walkway",
+  "name": "NRG-bootstrap",
   "version": "0.1.0",
+  "description": "React + GraphQL + Next.js project architecture that I play with",
+  "author": "Sebastian Pobocha - sebastianpob@gmail.com",
   "private": true,
   "scripts": {
     "devServer": "nodemon server/index.js",
@@ -9,7 +11,8 @@
     "start": "next start"
   },
   "engines": {
-    "node": "^10.16.0"
+    "node": "^10.16.0",
+    "npm": ">6"
   },
   "dependencies": {
     "dotenv-webpack": "^1.7.0",

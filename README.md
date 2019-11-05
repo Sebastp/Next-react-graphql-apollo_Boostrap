@@ -1,3 +1,5 @@
+//Development in progress
+
 Tech to use:
 https://github.com/immutable-js/immutable-js
 prop-types (or TypeScript/Flow)
