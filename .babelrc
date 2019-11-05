@@ -4,10 +4,10 @@
     [
       "module-resolver",
       {
-        "root": ["./src"],
+        "root": ["./"],
         "alias": {
-          "test": "./test",
-          "underscore": "lodash"
+          "styles": "./styles",
+          "server": "./server"
         }
       }
     ]
