@@ -2,5 +2,9 @@
   "plugins": [
     "stylelint-scss"
   ],
-  "extends": "stylelint-config-standard"
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": "./styles/base/**",
+  "rules": { 
+    "color-hex-length": "long"
+  }
 }

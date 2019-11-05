@@ -1,10 +1,9 @@
 html {
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 body {
   color: $black;
-  color: rgb(8, 8, 8);
   font-family: $poppins;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -16,37 +15,34 @@ body {
   padding-bottom: 200px;
 }
 
-
-
-#index{
+#index {
   display: block;
   position: relative;
   min-height: 100vh;
   margin: 0 auto;
 }
 
-
-.cont-width_0{
+.cont-width_0 {
   margin: auto;
-  padding: 0px 40px;
+  padding: 0 40px;
   max-width: 1220px; //40+40=80
   width: 100%;
   display: block;
 }
 
-
-
 // =====================================================
 //    MEDIA QUERIES
 // =====================================================
 
-
 // Medium
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 // Large
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+}
 // Extra large
 @media (max-width: 1225px) {
 }
 
-@media (max-width: 544px) {}
+@media (max-width: 544px) {
+}
