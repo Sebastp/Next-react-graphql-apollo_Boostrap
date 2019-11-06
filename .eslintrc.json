@@ -1,5 +1,5 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 2019,
     "sourceType": "module"
@@ -11,12 +11,15 @@
   },
   "extends": [
     "airbnb",
-    "prettier",
-    "prettier/react",
     "plugin:import/errors",
-    "plugin:import/warnings"
+    "plugin:import/warnings",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
+    "prettier/react"
   ],
-  "plugins": ["react", "prettier", "import"],
+  "plugins": ["react", "prettier", "@typescript-eslint", "import"],
   "rules": {
     "prettier/prettier": "error",
     "no-var": "warn",
@@ -25,6 +28,9 @@
   "settings": {
     "import/resolver": {
       "babel-module": {}
+    },
+    "react": {
+      "version": "detect"
     }
   }
 }
