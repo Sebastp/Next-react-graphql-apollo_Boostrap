@@ -23,6 +23,7 @@
   "rules": {
     "prettier/prettier": "error",
     "no-var": "warn",
+    "no-console": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
   "settings": {
