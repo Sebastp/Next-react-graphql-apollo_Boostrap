@@ -24,7 +24,14 @@
     "prettier/prettier": "error",
     "no-var": "warn",
     "no-console": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true,
+        "allowTypedFunctionExpressions": true
+      }
+    ]
   },
   "settings": {
     "import/resolver": {
