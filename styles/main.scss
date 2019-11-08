@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 // Base stuff
-@import 'base/base', 'base/fonts', 'base/variables';
+@import 'base/variables', 'base/base', 'base/fonts';
 
 // Vendors
 @import 'vendors/normalize';

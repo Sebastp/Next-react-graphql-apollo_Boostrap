@@ -1,4 +1,26 @@
-//Development in progress
+# Landing page template
+
+Starting template with:
+
+- React.js
+- Next.js
+- Typescript
+- SCSS
+- Apollo
+- GraphQl
+- EsLint
+- Prettier
+- Jest tests
+- Nodemon
+
+## How to use
+
+```javascript
+npm i
+npm run dev
+```
+
+###Development in progress
 
 Tech to use:
 https://github.com/immutable-js/immutable-js
