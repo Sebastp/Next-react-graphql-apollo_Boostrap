@@ -6,8 +6,9 @@
       {
         "root": ["./"],
         "alias": {
-          "styles": "./styles",
-          "server": "./server"
+          "@styles": "./styles",
+          "@server": "./server",
+          "@lib": "./lib"
         }
       }
     ]

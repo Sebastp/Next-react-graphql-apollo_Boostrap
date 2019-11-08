@@ -1,5 +1,6 @@
 import express from 'express'
 import next from 'next'
+import morgan from 'morgan'
 import helmet from 'helmet'
 
 // import { routes } from './core/nextRoutes'
@@ -13,7 +14,14 @@ const handle = nextApp.getRequestHandler()
 
 nextApp.prepare().then(() => {
   const server = express()
+
+  //security
   server.use(helmet())
+
+  // Generate logs
+  server.use(
+    morgan(':method :url :status :res[content-length] - :response-time ms')
+  )
 
   server.get('*', (req, res) => handle(req, res))
   // express().use(handler).listen(3000) //routes handle way
