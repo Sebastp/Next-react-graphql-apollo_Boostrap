@@ -10,7 +10,8 @@
           "~server": "./server",
           "~lib": "./lib",
           "~assets": "./assets",
-          "~styles": "./styles"
+          "~styles": "./styles",
+          "~views": "./views"
         }
       }
     ]

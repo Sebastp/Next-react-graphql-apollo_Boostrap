@@ -3,7 +3,7 @@ const path = require('path')
 const Dotenv = require('dotenv-webpack')
 const withSass = require('@zeit/next-sass')
 
-const configureWebpack = config => {
+const configureWebpack = (config, { dev }) => {
 	config.plugins = config.plugins || []
 
 	config.plugins.push(
@@ -13,6 +13,15 @@ const configureWebpack = config => {
 			systemvars: true
 		})
   );
+	
+	
+	if (dev) {
+		config.module.rules.push({
+			test: /\.jsx?$/,
+			exclude: /node_modules/,
+			loader: 'eslint-loader',
+		})
+	}
 
   return config;
 };

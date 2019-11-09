@@ -33,4 +33,11 @@ https://github.com/Sly777/ran
 https://github.com/tomanagle/Apollo-Next.js-GraphQL-starter
 https://github.com/atherosai/next-react-graphql-apollo-hooks
 
-import { gql } from 'apollo-boost' instead of graphql-tag
+/_
+"paths": {
+"@generated/_": ["../generated/*"],
+"@graphql/_": ["../graphql/_"],
+"@views/_": ["./_"],
+"@utils/_": ["../utils/_"]
+}
+\*/

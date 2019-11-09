@@ -19,7 +19,7 @@
     "prettier",
     "prettier/react"
   ],
-  "plugins": ["react", "prettier", "@typescript-eslint", "import"],
+  "plugins": ["@typescript-eslint", "react", "prettier", "import"],
   "rules": {
     "prettier/prettier": "error",
     "no-var": "warn",
