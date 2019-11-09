@@ -3,7 +3,6 @@ const path = require('path')
 const Dotenv = require('dotenv-webpack')
 const withSass = require('@zeit/next-sass')
 
-
 const configureWebpack = config => {
 	config.plugins = config.plugins || []
 
