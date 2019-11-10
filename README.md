@@ -20,13 +20,16 @@ npm i
 npm run dev
 ```
 
-###Development in progress
+### Development in progress
 
-Tech to use:
+## Tech to use:
+
 https://github.com/immutable-js/immutable-js
 
-To read later;
+## To read later;
+
 https://devstore.io/js/graphql-tag
 
-Check out this to read more about /server/graphql workings
+## Check out this to read more about /server/graphql workings
+
 https://github.com/Urigo/merge-graphql-schemas
