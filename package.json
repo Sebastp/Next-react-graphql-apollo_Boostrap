@@ -2,8 +2,20 @@
   "name": "NRG-bootstrap",
   "version": "0.1.0",
   "description": "React + GraphQL + Next.js + Typescript project architecture that I play with",
-  "author": "Sebastian Pobocha - sebastianpob@gmail.com",
-  "private": true,
+  "author": "Sebastian Pobocha",
+  "email": "sebastianpob@gmail.com",
+  "license": "MIT",
+  "url": "https://github.com/Sebastp/Next-react-graphql-apollo_Boostrap",
+  "keywords": [
+    "express",
+    "API",
+    "GraphQL",
+    "Next.js",
+    "Bootstrap",
+    "Apollo",
+    "Typescript"
+  ],
+  "main": "server/index.ts",
   "scripts": {
     "dev": "nodemon",
     "build": "next build && tsc --project tsconfig.server.json",
@@ -11,7 +23,8 @@
     "test": "jest",
     "test:unit": "jest --config tests/jest.unit.config.js",
     "test:integration": "jest --config tests/jest.integration.config.js",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "eslint:fix": "eslint . --fix --ignore-path .gitignore"
   },
   "engines": {
     "node": "^10.16.0",
