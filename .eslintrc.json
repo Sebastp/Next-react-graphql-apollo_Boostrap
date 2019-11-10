@@ -19,7 +19,7 @@
     "prettier",
     "prettier/react"
   ],
-  "plugins": ["@typescript-eslint", "react", "prettier", "import"],
+  "plugins": ["@typescript-eslint", "react", "prettier", "import", "graphql"],
   "rules": {
     "prettier/prettier": "error",
     "no-var": "warn",
@@ -30,6 +30,12 @@
       {
         "allowExpressions": true,
         "allowTypedFunctionExpressions": true
+      }
+    ],
+    "graphql/template-strings": [
+      "error",
+      {
+        "env": "literal"
       }
     ]
   },
