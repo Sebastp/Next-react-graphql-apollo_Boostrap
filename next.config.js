@@ -2,6 +2,8 @@ require('dotenv').config()
 const path = require('path')
 const Dotenv = require('dotenv-webpack')
 const withSass = require('@zeit/next-sass')
+const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
+
 
 const configureWebpack = (config, { dev }) => {
 	config.plugins = config.plugins || []
@@ -13,6 +15,13 @@ const configureWebpack = (config, { dev }) => {
 			systemvars: true
 		})
   );
+	
+	
+	if (config.resolve.plugins) {
+		config.resolve.plugins.push(new TsconfigPathsPlugin());
+	} else {
+		config.resolve.plugins = [new TsconfigPathsPlugin()];
+	}
 	
 	
 	config.module.rules.push({

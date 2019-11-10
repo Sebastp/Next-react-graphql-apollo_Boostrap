@@ -11,15 +11,13 @@
   },
   "extends": [
     "airbnb",
-    "plugin:import/errors",
-    "plugin:import/warnings",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
     "prettier",
     "prettier/react"
   ],
-  "plugins": ["@typescript-eslint", "react", "prettier", "import", "graphql"],
+  "plugins": ["@typescript-eslint", "react", "prettier", "graphql"],
   "rules": {
     "prettier/prettier": "error",
     "no-var": "warn",
