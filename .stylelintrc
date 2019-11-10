@@ -3,7 +3,7 @@
     "stylelint-scss"
   ],
   "extends": "stylelint-config-standard",
-  "ignoreFiles": "./styles/base/**",
+  "ignoreFiles": ["./styles/base/**", "./styles/vendors/**"],
   "rules": { 
     "color-hex-length": "long"
   }

@@ -33,11 +33,8 @@ https://github.com/Sly777/ran
 https://github.com/tomanagle/Apollo-Next.js-GraphQL-starter
 https://github.com/atherosai/next-react-graphql-apollo-hooks
 
-/_
-"paths": {
-"@generated/_": ["../generated/*"],
-"@graphql/_": ["../graphql/_"],
-"@views/_": ["./_"],
-"@utils/_": ["../utils/_"]
-}
-\*/
+To read later;
+https://devstore.io/js/graphql-tag
+
+Check out this to read more about /server/graphql workings
+https://github.com/Urigo/merge-graphql-schemas

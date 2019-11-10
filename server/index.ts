@@ -2,6 +2,9 @@ import express from 'express'
 import next from 'next'
 import morgan from 'morgan'
 import helmet from 'helmet'
+import compression from 'compression'
+
+import apollo from './core/apollo'
 
 // import { routes } from './core/nextRoutes'
 
@@ -22,6 +25,10 @@ nextApp.prepare().then(() => {
   server.use(
     morgan(':method :url :status :res[content-length] - :response-time ms')
   )
+  server.use(compression())
+
+  //start apollo server
+  apollo.applyMiddleware({ app: server })
 
   server.get('*', (req, res) => handle(req, res))
   // express().use(handler).listen(3000) //routes handle way

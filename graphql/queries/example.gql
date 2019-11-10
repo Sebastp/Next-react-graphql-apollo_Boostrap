@@ -1,0 +1,12 @@
+query MyQuery1 {
+  user {
+    id
+  }
+}
+
+query MyQuery2 {
+  user {
+    name
+    lastName
+  }
+}
