@@ -5,10 +5,10 @@ interface IProps {
   children: string
 }
 
-const Button: IProps = ({ loading = false, children, ...props }) => (
+const Button = ({ loading = false, children, ...props }: IProps) => (
   <button {...props}>
     {children}
-    {loading && <i className="fa fa-spinner fa-spin" />}
+    {loading && <span>Loading</span>}
   </button>
 )
 

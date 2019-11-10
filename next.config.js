@@ -28,6 +28,5 @@ const configureWebpack = (config, { dev }) => {
 
 
 module.exports = withSass({
-	cssModules: true,
 	webpack: configureWebpack
 })
