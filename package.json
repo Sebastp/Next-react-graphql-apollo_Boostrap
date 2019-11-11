@@ -54,6 +54,8 @@
     "npm": "^6.13.0",
     "react": "16.10.2",
     "react-dom": "16.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
     "typescript": "^3.7.2"
   },
   "devDependencies": {
@@ -65,7 +67,7 @@
     "@typescript-eslint/parser": "^2.6.1",
     "babel-eslint": "^10.0.1",
     "eslint-loader": "^3.0.2",
-    "eslint-plugin-graphql": "^3.1.0",    
+    "eslint-plugin-graphql": "^3.1.0",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^3.3.0",

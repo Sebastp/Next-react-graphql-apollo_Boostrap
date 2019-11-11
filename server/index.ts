@@ -6,7 +6,7 @@ import morgan from 'morgan'
 import helmet from 'helmet'
 import compression from 'compression'
 
-import apollo from './core/apollo'
+import apollo from '~server/core/apollo'
 
 // import { routes } from './core/nextRoutes'
 
