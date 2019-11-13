@@ -8,14 +8,15 @@ import compression from 'compression'
 
 import apollo from '~server/core/apollo'
 
-// import { routes } from './core/nextRoutes'
+// if you want to use nextRoutes
+// import { routes } from '~server/core/nextRoutes'
+// const handle = routes.getRequestHandler(app)
 
 const port = parseInt(process.env.PORT || '3000', 10)
 const dev = process.env.NODE_ENV !== 'production'
 
 const nextApp = next({ dev })
 const handle = nextApp.getRequestHandler()
-// const handle = routes.getRequestHandler(app)
 
 nextApp.prepare().then(() => {
   const server = express()
