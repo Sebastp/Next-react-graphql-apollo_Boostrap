@@ -34,7 +34,7 @@ npm run dev
 ## Environment variables
 
 You can access your .env variables by deconstructing 'process.env' object, both on client and server.
-Just make sure that you reboot the server when updating .env file
+Just make sure that you reboot the server when updating .env file.
 
 ## Configuration
 
@@ -43,16 +43,11 @@ Configuration in this project is not perfect - it's just my own preference, but 
 
 > Thank you [Prosper Otemuyiwa](https://github.com/unicodeveloper) for including it in your [awesome-nextjs](https://github.com/unicodeveloper/awesome-nextjs)
 
-### Development in progress
+## To see before coding;
 
-## Tech to use:
-
-https://github.com/immutable-js/immutable-js
-
-## To read later;
-
-https://devstore.io/js/graphql-tag
-
-## Check out this to read more about /server/graphql workings
-
-https://github.com/Urigo/merge-graphql-schemas
+- [pure-functions-immutability-and-other-software-superpowers](https://medium.com/dailyjs/pure-functions-immutability-and-other-software-superpowers-dfe6039af8f6)
+- [Check out this to read more about /server/graphql workings](https://github.com/Urigo/merge-graphql-schemas)
+- [Context management choice](https://www.youtube.com/watch?v=Q54YDGC_t3Y)
+- [Apollo context management](https://www.apollographql.com/docs/react/data/local-state/)
+- [graphql-tag](https://devstore.io/js/graphql-tag)
+- [immutable-js](https://github.com/immutable-js/immutable-js)
