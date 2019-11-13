@@ -1,4 +1,6 @@
 require('dotenv').config()
+// if you want to use nextRoutes
+const routes = require('~server/core/nextRoutes')
 
 import express from 'express'
 import next from 'next'
@@ -8,15 +10,13 @@ import compression from 'compression'
 
 import apollo from '~server/core/apollo'
 
-// if you want to use nextRoutes
-// import { routes } from '~server/core/nextRoutes'
-// const handle = routes.getRequestHandler(app)
-
 const port = parseInt(process.env.PORT || '3000', 10)
 const dev = process.env.NODE_ENV !== 'production'
 
 const nextApp = next({ dev })
 const handle = nextApp.getRequestHandler()
+// if you want to use nextRoutes
+// const handle = routes.getRequestHandler(nextApp)
 
 nextApp.prepare().then(() => {
   const server = express()
