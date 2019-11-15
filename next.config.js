@@ -2,6 +2,8 @@ require('dotenv').config()
 const path = require('path')
 const Dotenv = require('dotenv-webpack')
 const withSass = require('@zeit/next-sass')
+const withImages = require('next-images')
+
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 
 
@@ -42,6 +44,6 @@ const configureWebpack = (config, { dev }) => {
 };
 
 
-module.exports = withSass({
+module.exports = withSass(withImages({
 	webpack: configureWebpack
-})
+}))

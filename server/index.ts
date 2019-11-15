@@ -1,6 +1,6 @@
 require('dotenv').config()
 // if you want to use nextRoutes
-const routes = require('~server/core/nextRoutes')
+// const routes = require('~server/core/nextRoutes')
 
 import express from 'express'
 import next from 'next'

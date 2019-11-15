@@ -49,6 +49,7 @@
     "install": "^0.13.0",
     "merge-graphql-schemas": "^1.7.3",
     "next": "9.1.1",
+    "next-images": "^1.2.0",
     "node-fetch": "^2.6.0",
     "node-sass": "^4.13.0",
     "npm": "^6.13.0",
