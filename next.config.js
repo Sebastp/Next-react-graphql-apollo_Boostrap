@@ -1,6 +1,7 @@
 require('dotenv').config()
 const path = require('path')
 const Dotenv = require('dotenv-webpack')
+const withCSS = require('@zeit/next-css')
 const withSass = require('@zeit/next-sass')
 const withImages = require('next-images')
 
@@ -25,6 +26,16 @@ const configureWebpack = (config, { dev }) => {
 		config.resolve.plugins = [new TsconfigPathsPlugin()];
 	}
 	
+	config.module.rules.push({
+		test: /\.(eot|woff|woff2|ttf|svg|png|jpg|gif)$/,
+		use: {
+			loader: 'url-loader',
+			options: {
+				limit: 100000,
+				name: '[name].[ext]'
+			}
+		}
+	})
 	
 	config.module.rules.push({
 		test: /\.(graphql|gql)$/,
@@ -44,6 +55,10 @@ const configureWebpack = (config, { dev }) => {
 };
 
 
-module.exports = withSass(withImages({
-	webpack: configureWebpack
-}))
+module.exports = withSass(
+	withCSS(
+		withImages({
+			webpack: configureWebpack
+		})
+	)
+)

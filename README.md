@@ -23,6 +23,7 @@
 - Prettier
 - Jest tests
 - Nodemon
+- Styled Components
 
 ## How to use
 

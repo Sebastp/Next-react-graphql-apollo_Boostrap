@@ -17,7 +17,13 @@
     "prettier",
     "prettier/react"
   ],
-  "plugins": ["@typescript-eslint", "react", "prettier", "graphql"],
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "prettier",
+    "graphql",
+    "better-styled-components"
+  ],
   "rules": {
     "prettier/prettier": "error",
     "no-var": "warn",
@@ -35,7 +41,8 @@
       {
         "env": "literal"
       }
-    ]
+    ],
+    "better-styled-components/sort-declarations-alphabetically": 2
   },
   "settings": {
     "import/resolver": {
