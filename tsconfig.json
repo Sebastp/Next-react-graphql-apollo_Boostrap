@@ -16,12 +16,19 @@
     "noImplicitAny": false,
     "baseUrl": ".",
     "paths": {
+      "~graphql/*": ["./graphql/*"],
+      "~graphqlQ/*": ["./graphql/queries/*"],
+      "~graphqlM/*": ["./graphql/mutations/*"],
       "~views/*": ["./views/*"],
+      "~viewsUi/*": ["./views/ui/*"],
+      "~viewsComp/*": ["./views/components/*"],
+      "~viewsLay/*": ["./views/layouts/*"],
       "~styles/*": ["./styles/*"],
       "~server/*": ["./server/*"],
       "~lib/*": ["./lib/*"],
       "~assets/*": ["./assets/*"],
-      "~styles/*": ["./styles/*"]
+      "~styles/*": ["./styles/*"],
+      "~static/*": ["./public/static/*"]
     }
   },
   "exclude": ["node_modules"],
