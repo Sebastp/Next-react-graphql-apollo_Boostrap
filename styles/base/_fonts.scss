@@ -3,13 +3,13 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
-  src: url('/public/fonts/poppins-v6-latin-300.eot'); /* IE9 Compat Modes */
+  src: url('/public/poppins/fonts/poppins-v6-latin-300.eot'); /* IE9 Compat Modes */
   src: local('Poppins Light'), local('Poppins-Light'),
-       url('/public/fonts/poppins-v6-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/public/fonts/poppins-v6-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/public/fonts/poppins-v6-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('/public/fonts/poppins-v6-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/public/fonts/poppins-v6-latin-300.svg#Poppins') format('svg'); /* Legacy iOS */
+       url('/public/poppins/fonts/poppins-v6-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/public/poppins/fonts/poppins-v6-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/public/poppins/fonts/poppins-v6-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('/public/poppins/fonts/poppins-v6-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/public/poppins/fonts/poppins-v6-latin-300.svg#Poppins') format('svg'); /* Legacy iOS */
 }
 
 /* poppins-regular - latin */
@@ -17,94 +17,65 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  src: url('/public/fonts/poppins-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/public/poppins/fonts/poppins-v5-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Poppins Regular'), local('Poppins-Regular'),
-       url('/public/fonts/poppins-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/public/fonts/poppins-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/public/fonts/poppins-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('/public/fonts/poppins-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/public/fonts/poppins-v5-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+       url('/public/poppins/fonts/poppins-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/public/poppins/fonts/poppins-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/public/poppins/fonts/poppins-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/public/poppins/fonts/poppins-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/public/poppins/fonts/poppins-v5-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
 }
 /* poppins-500 - latin */
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  src: url('/public/fonts/poppins-v5-latin-500.eot'); /* IE9 Compat Modes */
+  src: url('/public/poppins/fonts/poppins-v5-latin-500.eot'); /* IE9 Compat Modes */
   src: local('Poppins Medium'), local('Poppins-Medium'),
-       url('/public/fonts/poppins-v5-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/public/fonts/poppins-v5-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/public/fonts/poppins-v5-latin-500.woff') format('woff'), /* Modern Browsers */
-       url('/public/fonts/poppins-v5-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/public/fonts/poppins-v5-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+       url('/public/poppins/fonts/poppins-v5-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/public/poppins/fonts/poppins-v5-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/public/poppins/fonts/poppins-v5-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('/public/poppins/fonts/poppins-v5-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/public/poppins/fonts/poppins-v5-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
 }
 /* poppins-600 - latin */
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  src: url('/public/fonts/poppins-v5-latin-600.eot'); /* IE9 Compat Modes */
+  src: url('/public/poppins/fonts/poppins-v5-latin-600.eot'); /* IE9 Compat Modes */
   src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
-       url('/public/fonts/poppins-v5-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/public/fonts/poppins-v5-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/public/fonts/poppins-v5-latin-600.woff') format('woff'), /* Modern Browsers */
-       url('/public/fonts/poppins-v5-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/public/fonts/poppins-v5-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+       url('/public/poppins/fonts/poppins-v5-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/public/poppins/fonts/poppins-v5-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/public/poppins/fonts/poppins-v5-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('/public/poppins/fonts/poppins-v5-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/public/poppins/fonts/poppins-v5-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
 }
 /* poppins-700 - latin */
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  src: url('/public/fonts/poppins-v5-latin-700.eot'); /* IE9 Compat Modes */
+  src: url('/public/poppins/fonts/poppins-v5-latin-700.eot'); /* IE9 Compat Modes */
   src: local('Poppins Bold'), local('Poppins-Bold'),
-       url('/public/fonts/poppins-v5-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/public/fonts/poppins-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/public/fonts/poppins-v5-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('/public/fonts/poppins-v5-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/public/fonts/poppins-v5-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
+       url('/public/poppins/fonts/poppins-v5-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/public/poppins/fonts/poppins-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/public/poppins/fonts/poppins-v5-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('/public/poppins/fonts/poppins-v5-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/public/poppins/fonts/poppins-v5-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
 }
 /* poppins-800 - latin */
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
-  src: url('/public/fonts/poppins-v5-latin-800.eot'); /* IE9 Compat Modes */
+  src: url('/public/poppins/fonts/poppins-v5-latin-800.eot'); /* IE9 Compat Modes */
   src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'),
-       url('/public/fonts/poppins-v5-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/public/fonts/poppins-v5-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/public/fonts/poppins-v5-latin-800.woff') format('woff'), /* Modern Browsers */
-       url('/public/fonts/poppins-v5-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/public/fonts/poppins-v5-latin-800.svg#Poppins') format('svg'); /* Legacy iOS */
+       url('/public/poppins/fonts/poppins-v5-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/public/poppins/fonts/poppins-v5-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/public/poppins/fonts/poppins-v5-latin-800.woff') format('woff'), /* Modern Browsers */
+       url('/public/poppins/fonts/poppins-v5-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/public/poppins/fonts/poppins-v5-latin-800.svg#Poppins') format('svg'); /* Legacy iOS */
 }
 
-
-
-
-/* open-sans-regular - latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-regular.eot'); /* IE9 Compat Modes */
-  src: local('Open Sans Regular'), local('OpenSans-Regular'),
-       url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-       url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
-}
-/* open-sans-600 - latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-600.eot'); /* IE9 Compat Modes */
-  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
-       url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-600.woff') format('woff'), /* Modern Browsers */
-       url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/public/fonts/open-sans-v17-latin-ext_vietnamese_latin_greek-ext_cyrillic-ext_greek_cyrillic-600.svg#OpenSans') format('svg'); /* Legacy iOS */
-}
 
