@@ -14,7 +14,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "noImplicitAny": false,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "~graphql/*": ["./graphql/*"],
       "~graphqlQ/*": ["./graphql/queries/*"],
