@@ -40,9 +40,7 @@ Just make sure that you reboot the server when updating .env file.
 ## Configuration
 
 You should configure things like eslint, tsconfig, prettier etc. with things that suit you and your project.
-Configuration in this project is not perfect - it's just my own preference, but I'm open to suggestions :)
-
-> Thank you [Prosper Otemuyiwa](https://github.com/unicodeveloper) for including it in your [awesome-nextjs](https://github.com/unicodeveloper/awesome-nextjs)
+Configuration in this project is not perfect - it's just my own preference, and I'm open to suggestions :)
 
 ## To see before coding;
 
@@ -52,3 +50,5 @@ Configuration in this project is not perfect - it's just my own preference, but 
 - [Apollo context management](https://www.apollographql.com/docs/react/data/local-state/)
 - [graphql-tag](https://devstore.io/js/graphql-tag)
 - [immutable-js](https://github.com/immutable-js/immutable-js)
+
+PS; I'm always looking for interesting freelance/full time opportunities, hmu @ sebastianpob@gmail.com
