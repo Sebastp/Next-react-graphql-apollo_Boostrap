@@ -9,10 +9,8 @@
   <a href="https://github.com/codica2" target="_blank"><img src="https://img.shields.io/badge/licence-MIT-green.svg" /></a>
 </p>
 
-# Landing page template
 
-## Starting template with:
-
+## Project boostrap built with:
 - React.js
 - Next.js
 - Typescript
@@ -49,6 +47,5 @@ Configuration in this project is not perfect - it's just my own preference, and 
 - [Context management choice](https://www.youtube.com/watch?v=Q54YDGC_t3Y)
 - [Apollo context management](https://www.apollographql.com/docs/react/data/local-state/)
 - [graphql-tag](https://devstore.io/js/graphql-tag)
-- [immutable-js](https://github.com/immutable-js/immutable-js)
 
 PS; I'm always looking for interesting freelance/full time opportunities, hmu @ sebastianpob@gmail.com
