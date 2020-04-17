@@ -1,14 +1,19 @@
+scalar IsoDate #declered for all .graphql files
 type Query {
   clients: [Client]
   client(id: ID!): Client
 }
 
 type Mutation {
-  addClient(name: String!, age: Int!): Client
+  updateUser(newName: String): Client
 }
 
 type Client {
   id: ID!
+  username: String
+  email: String
   name: String
-  age: Int
+  bio: String
+  avatar: String
+  createdAt: IsoDate
 }

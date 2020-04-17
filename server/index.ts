@@ -10,8 +10,11 @@ import compression from 'compression'
 
 import apollo from '~server/core/apollo'
 
-const port = parseInt(process.env.PORT || '3000', 10)
-const dev = process.env.NODE_ENV !== 'production'
+const { PORT = '3000', NODE_ENV } = process.env
+const port = parseInt(PORT, 10) || 3000
+const dev = NODE_ENV !== 'production'
+
+console.log('Running env; ' + NODE_ENV)
 
 const nextApp = next({ dev })
 const handle = nextApp.getRequestHandler()
