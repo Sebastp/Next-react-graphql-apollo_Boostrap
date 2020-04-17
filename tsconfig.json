@@ -16,6 +16,7 @@
     "noImplicitAny": false,
     "baseUrl": "./",
     "paths": {
+      "~types/*": ["./@types/*"],
       "~graphql/*": ["./graphql/*"],
       "~graphqlQ/*": ["./graphql/queries/*"],
       "~graphqlM/*": ["./graphql/mutations/*"],
@@ -27,7 +28,6 @@
       "~server/*": ["./server/*"],
       "~lib/*": ["./lib/*"],
       "~assets/*": ["./assets/*"],
-      "~styles/*": ["./styles/*"],
       "~static/*": ["./public/static/*"]
     }
   },
