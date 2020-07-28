@@ -1,10 +1,6 @@
 const routes = require('next-routes')
 
-const routerObj = new routes().add('homeRoute', '/', 'index').add({
-  name: 'userRoute',
-  pattern: '/user/:username',
-  page: 'userPage',
-})
+const routerObj = new routes().add('homeRoute', '/', 'index')
 
 export const { Link } = routerObj
 export default routerObj

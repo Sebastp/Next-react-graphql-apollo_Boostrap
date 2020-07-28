@@ -51,7 +51,7 @@
     "install": "^0.13.0",
     "merge-graphql-schemas": "^1.7.3",
     "morgan": "^1.9.1",
-    "next": "^9.3.5",
+    "next": "^9.5.0",
     "next-images": "^1.2.0",
     "node-fetch": "^2.6.0",
     "node-sass": "^4.13.0",

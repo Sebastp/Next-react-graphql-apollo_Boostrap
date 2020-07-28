@@ -9,16 +9,6 @@ const Nav = () => (
           <a>Home</a>
         </Link>
       </li>
-      <li>
-        <Link href="https://zeit.co/now">
-          <a>ZEIT</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="https://github.com/zeit/next.js">
-          <a>GitHub</a>
-        </Link>
-      </li>
     </ul>
 
     <style jsx>{`
