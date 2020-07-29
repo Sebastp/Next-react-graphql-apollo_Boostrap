@@ -8,8 +8,5 @@
 // Vendors
 @import 'vendors/normalize';
 
-// Components
-@import 'components/button', 'components/header', 'components/footer';
-
 // Page-specific styles
-@import 'pages/home';
+@import 'pages/index';

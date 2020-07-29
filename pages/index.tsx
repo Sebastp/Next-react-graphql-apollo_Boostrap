@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '~views/components/Nav'
+import Footer from '~views/components/Footer'
 
 const Home = () => (
   <div>
@@ -38,6 +39,7 @@ const Home = () => (
       </div>
     </div>
 
+    <Footer />
     <style jsx>{`
       .hero {
         width: 100%;

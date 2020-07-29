@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import styles from './nav.module.scss'
 
 const Nav = () => (
   <nav>
