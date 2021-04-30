@@ -1,5 +1,5 @@
 import gql from 'graphql-tag'
-import { FRAGMENT_exampleObject } from '~graphql/fragments'
+import { FRAGMENT_exampleObject } from '@graphql/fragments'
 
 export const UPDATE_PROFILE = gql`
   ${FRAGMENT_exampleObject}

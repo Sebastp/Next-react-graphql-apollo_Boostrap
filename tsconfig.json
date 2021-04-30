@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2018",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -14,23 +14,36 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "noImplicitAny": false,
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
     "baseUrl": "./",
     "paths": {
-      "~types/*": ["./@types/*"],
-      "~graphql/*": ["./graphql/*"],
-      "~graphqlQ/*": ["./graphql/queries/*"],
-      "~graphqlM/*": ["./graphql/mutations/*"],
-      "~views/*": ["./views/*"],
-      "~viewsUi/*": ["./views/ui/*"],
-      "~viewsComp/*": ["./views/components/*"],
-      "~viewsLay/*": ["./views/layouts/*"],
-      "~styles/*": ["./styles/*"],
-      "~server/*": ["./server/*"],
-      "~lib/*": ["./lib/*"],
-      "~assets/*": ["./assets/*"],
-      "~static/*": ["./public/static/*"]
+      "@types/*": ["./@types/*"],
+      "@graphql/*": ["./graphql/*"],
+      "@graphqlQ/*": ["./graphql/queries/*"],
+      "@graphqlM/*": ["./graphql/mutations/*"],
+      "@views/*": ["./views/*"],
+      "@viewsUi/*": ["./views/ui/*"],
+      "@viewsComp/*": ["./views/components/*"],
+      "@viewsLay/*": ["./views/layouts/*"],
+      "@styles/*": ["./styles/*"],
+      "@server/*": ["./server/*"],
+      "@lib/*": ["./lib/*"],
+      "@assets/*": ["./assets/*"],
+      "@static/*": ["./public/static/*"]
     }
   },
-  "exclude": ["node_modules"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".next",
+    "out",
+    "next.config.js",
+    ".babelrc",
+    "bundles",
+    "coverage",
+    "test/*"
+  ],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }

@@ -1,7 +1,7 @@
 import { ApolloServer } from 'apollo-server-express'
 
-import typeDefs from '~server/graphql/typeDefs'
-import resolvers from '~server/graphql/resolvers'
+import typeDefs from '@server/graphql/typeDefs'
+import resolvers from '@server/graphql/resolvers'
 
 const { PORT = 3000 } = process.env
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import Footer from '~views/components/Footer'
+import Footer from '@views/components/Footer'
 
 interface IProps {
   title?: string

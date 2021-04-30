@@ -1,6 +1,6 @@
 require('dotenv').config()
 // if you want to use nextRoutes
-// const routes = require('~server/core/nextRoutes')
+// const routes = require('@server/core/nextRoutes')
 
 import express from 'express'
 import next from 'next'
@@ -8,7 +8,7 @@ import morgan from 'morgan'
 import helmet from 'helmet'
 import compression from 'compression'
 
-import apollo from '~server/core/apollo'
+import apollo from '@server/core/apollo'
 
 const { PORT = '3000', NODE_ENV } = process.env
 const port = parseInt(PORT, 10) || 3000
