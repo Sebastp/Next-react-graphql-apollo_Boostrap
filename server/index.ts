@@ -38,6 +38,7 @@ nextApp.prepare().then(() => {
 
   server.get('*', (req, res) => handle(req, res))
   // express().use(handler).listen(3000) //routes handle way
+  //@ts-ignore
   server.listen(port, err => {
     if (err) throw err
   })
