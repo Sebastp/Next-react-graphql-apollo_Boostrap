@@ -1,7 +1,8 @@
 import path from 'path'
 import { fileLoader, mergeTypes } from 'merge-graphql-schemas'
 
-const typesArray = fileLoader(path.join(__dirname, './types'), {
+//loads files automaticly so you don't have to import anything
+const typesArray = fileLoader(path.join(__dirname, './**/*.type.*'), {
   recursive: true,
 })
 

@@ -10,11 +10,3 @@ export const UPDATE_PROFILE = gql`
     }
   }
 `
-
-export const UPDATE_AVATAR = gql`
-  mutation updateAvatar($newAvatar: String!) {
-    updateAvatar(newAvatar: $newAvatar) {
-      avatar
-    }
-  }
-`

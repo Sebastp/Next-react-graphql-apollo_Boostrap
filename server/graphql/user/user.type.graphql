@@ -1,0 +1,19 @@
+scalar IsoDate #declered for all .graphql files
+type Query {
+  currentUser: User
+}
+
+type Mutation {
+  login(email: String, password: String): User
+  logout: Boolean
+  createUser(email: String, password: String): Boolean
+  updateUser(email: String): User
+}
+
+type User {
+  _id: String
+  login: String
+  email: String
+  avatar: String
+  createdAt: IsoDate
+}
