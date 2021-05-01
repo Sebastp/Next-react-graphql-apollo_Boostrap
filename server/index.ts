@@ -27,7 +27,11 @@ nextApp.prepare().then(() => {
   connectDB()
 
   //security
-  server.use(helmet())
+  server.use(
+    helmet({
+      contentSecurityPolicy: false,
+    })
+  )
 
   // Generate logs
   server.use(
