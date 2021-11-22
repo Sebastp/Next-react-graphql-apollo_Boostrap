@@ -1,5 +1,6 @@
 {
+  "ignore": [".git", "node_modules/**/node_modules", "*.gql"],
   "watch": ["server/*"],
   "ext": "*",
-  "exec": "ts-node --project tsconfig.server.json -r tsconfig-paths/register server/index.ts"
+  "exec": "ts-node --project tsconfig.server.json -r tsconfig-paths/register -r dotenv/config server/index.ts"
 }

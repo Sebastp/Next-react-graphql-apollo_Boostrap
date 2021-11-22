@@ -9,8 +9,8 @@
   <a href="https://github.com/codica2" target="_blank"><img src="https://img.shields.io/badge/licence-MIT-green.svg" /></a>
 </p>
 
-
 ## Project boostrap built with:
+
 - React.js
 - Next.js
 - Typescript
@@ -19,9 +19,10 @@
 - GraphQl
 - EsLint
 - Prettier
-- Jest tests
+- Jest
 - Nodemon
-- Styled Components
+- Typegoose
+- Type-graphql
 
 ## How to use
 
@@ -42,10 +43,8 @@ Configuration in this project is not perfect - it's just my own preference, and 
 
 ## To see before coding;
 
-- [pure-functions-immutability-and-other-software-superpowers](https://medium.com/dailyjs/pure-functions-immutability-and-other-software-superpowers-dfe6039af8f6)
 - [Check out this to read more about /server/graphql workings](https://github.com/Urigo/merge-graphql-schemas)
 - [Context management choice](https://www.youtube.com/watch?v=Q54YDGC_t3Y)
 - [Apollo context management](https://www.apollographql.com/docs/react/data/local-state/)
-- [graphql-tag](https://devstore.io/js/graphql-tag)
 
 PS; I'm always looking for interesting freelance/full time opportunities, hmu @ sebastianpob@gmail.com

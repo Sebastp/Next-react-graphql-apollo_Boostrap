@@ -10,20 +10,13 @@
     "es6": true
   },
   "extends": [
-    "airbnb",
+    "next",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
-    "prettier",
-    "prettier/react"
+    "prettier"
   ],
-  "plugins": [
-    "@typescript-eslint",
-    "react",
-    "prettier",
-    "graphql",
-    "better-styled-components"
-  ],
+  "plugins": ["@typescript-eslint", "react", "prettier", "graphql"],
   "rules": {
     "prettier/prettier": "error",
     "no-var": "warn",
