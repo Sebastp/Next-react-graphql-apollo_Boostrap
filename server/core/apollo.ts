@@ -1,39 +1,36 @@
 import { ApolloServer } from 'apollo-server-express'
+// import { makeExecutableSchema } from '@graphql-tools/schema'
+// import typeDefs from '@server/subgraphs/typeDefs'
+// import resolvers from '@server/subgraphs/resolvers'
 
 import { buildContext } from 'graphql-passport'
-import typeDefs from '@server/graphql/typeDefs'
-import resolvers from '@server/graphql/resolvers'
-import models from '@server/graphql/models'
+import UserResolver from '@server/subgraphs/user/user.resolver'
 
-const { User } = models
+//////
+import path from 'path'
+import { TypegooseMiddleware } from '@server/serverLib/typegoose-middleware'
+import { buildSchema } from 'type-graphql'
 
-const { PORT = 3000 } = process.env
+//////
 
-const playground = {
-  endpoint: `http://localhost:${PORT}/graphql`,
-  settings: {
-    'request.credentials': 'same-origin',
-  },
+// const { User } = models
+// const schema = makeExecutableSchema({ typeDefs, resolvers })
+
+export default async function () {
+  const schema = await buildSchema({
+    resolvers: [UserResolver], //[__dirname + '../subgraphs/**/*.resolver.ts'],
+    emitSchemaFile: path.resolve(__dirname + '/../subgraphs', 'schema.gql'),
+    // use document converting middleware
+    globalMiddlewares: [TypegooseMiddleware],
+    // validate: false,
+  })
+
+  const apollo = new ApolloServer({
+    schema,
+    context: ({ req, res }) => {
+      return buildContext({ req, res, User: {} })
+    },
+  })
+  await apollo.start()
+  return apollo
 }
-
-const apollo = new ApolloServer({
-  typeDefs,
-  resolvers,
-  playground,
-  context: ({ req, res }) => {
-    return buildContext({ req, res, User })
-    // return { user: null } //not logged in
-    /*
-    // Get the user token from the headers.
-    const token = tokenExtractor(req)
-    if (token == null) {
-      return { user: null } //not logged in
-    }
-
-    var user = jwt.verify(token, JWT_SECRET)
-    return { user }
-    */
-  },
-})
-
-export default apollo
