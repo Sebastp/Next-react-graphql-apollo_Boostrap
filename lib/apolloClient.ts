@@ -1,11 +1,7 @@
 import fetch from 'node-fetch'
 
-import ApolloClient from 'apollo-client'
-import { InMemoryCache } from 'apollo-cache-inmemory'
-
-import { ApolloLink } from 'apollo-link'
-import { onError } from 'apollo-link-error'
-import { HttpLink } from 'apollo-link-http'
+import { ApolloClient, InMemoryCache, from, HttpLink } from '@apollo/client'
+import { onError } from '@apollo/client/link/error'
 
 const { GRAPHQL_URL } = process.env
 const { NODE_ENV } = process.env
@@ -28,7 +24,7 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
 })
 
 //merger all apollo links
-const link = ApolloLink.from([errorLink, httpLink])
+const link = from([errorLink, httpLink])
 
 const cache = new InMemoryCache()
 
