@@ -2,8 +2,7 @@
   "name": "NRG-bootstrap",
   "version": "0.1.0",
   "description": "Next.js + GraphQL + Typescript + Typegoose + Type-graphql project architecture that I play with",
-  "author": "Sebastian Pobocha",
-  "email": "sebastianpob@gmail.com",
+  "author": "Seb",
   "license": "MIT",
   "url": "https://github.com/Sebastp/Next-react-graphql-apollo_Boostrap",
   "keywords": [
