@@ -46,5 +46,3 @@ Configuration in this project is not perfect - it's just my own preference, and 
 - [Check out this to read more about /server/graphql workings](https://github.com/Urigo/merge-graphql-schemas)
 - [Context management choice](https://www.youtube.com/watch?v=Q54YDGC_t3Y)
 - [Apollo context management](https://www.apollographql.com/docs/react/data/local-state/)
-
-PS; I'm always looking for interesting freelance/full time opportunities, hmu @ sebastianpob@gmail.com
